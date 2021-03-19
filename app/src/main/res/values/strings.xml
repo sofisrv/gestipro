@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">GestiPro1</string>
+    <string name="title_activity_index1">Restaurantes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_index2">Proveedores</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_index3">Proveedores</string>
+    <string name="title_activity_index">index</string>
+    <string name="title_activity_indexxx">indexxx</string>
+    <string name="title_activity_rb1">rb1</string>
+
+    <string-array name="um">
+        <item value=""> </item>
+        <item value="Kilogramos">Kilogramos</item>
+        <item value="Litros">Litros</item>
+        <item value="Unidad">Unidad</item>
+    </string-array>
+
+    <string-array name="categoria">
+        <item value="">Seleccione categoria</item>
+        <item value="Alimentos envasados">Alimentos envasados</item>
+        <item value="Aperitivos">Aperitivos</item>
+        <item value="Bebidas">Bebidas</item>
+        <item value="Carnes y pescados">Carnes y pescados</item>
+        <item value="Conservas y comida enlatada">Conservas y comida enlatada</item>
+        <item value="Congelados">Congelados</item>
+        <item value="Dulceria">Dulceria</item>
+        <item value="Embutidos">Embutidos</item>
+        <item value="Frutas y verduras">Frutas y verduras</item>
+        <item value="Panaderia">Panaderia</item>
+        <item value="Postres">Postres</item>
+        <item value="Salsas y aderezos">Salsas y aderezos</item>
+        <item value="Vinos y licores">Vinos y licores</item>
+        <item value="Condimentos">Condimentos</item>
+    </string-array>
+    <string name="title_activity_miperfilr">miperfilr</string>
+    <string name="title_activity_modificarperfil">modificarperfil</string>
+    <string name="title_activity_modificarperfilr">modificarperfilr</string>
+    <string name="title_activity_miperfilp">miperfilp</string>
+    <string name="title_activity_modificarperfilp">modificarperfilp</string>
+    <string name="title_activity_restaurante">restaurante</string>
+    <string name="title_activity_verproductos">verproductos</string>
+    <string name="title_activity_agregarprod">agregarprod</string>
+    <string name="title_activity_convenior">convenior</string>
+    <string name="title_activity_nconvenio">nconvenio</string>
+    <string name="title_activity_ajustesr">ajustesr</string>
+    <string name="title_activity_bodega">bodega</string>
+    <string name="title_activity_nbodega">nbodega</string>
+    <string name="title_activity_pe">pe</string>
+    <string name="title_activity_adr">adr</string>
+
+</resources>

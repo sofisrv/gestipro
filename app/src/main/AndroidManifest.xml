@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sofia.gestipro1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    ﻿
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/log"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".uno"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splashscreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".restaurantes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".proveedores"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".regr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".regp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".loginr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".loginp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Index1"
+            android:label="@string/title_activity_index1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Index2"
+            android:label="@string/title_activity_index2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".index3"
+            android:label="@string/title_activity_index3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".index"
+            android:label="@string/title_activity_index"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".indexxx"
+            android:label="@string/title_activity_indexxx"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rb1"
+            android:label="@string/title_activity_rb1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".rb2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".miperfilr"
+            android:label="@string/title_activity_miperfilr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modificarperfil"
+            android:label="@string/title_activity_modificarperfil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modificarperfilr"
+            android:label="@string/title_activity_modificarperfilr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".miperfilp"
+            android:label="@string/title_activity_miperfilp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".modificarperfilp"
+            android:label="@string/title_activity_modificarperfilp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".restaurante"
+            android:label="@string/title_activity_restaurante"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".verproductos"
+            android:label="@string/title_activity_verproductos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".agregarprod"
+            android:label="@string/title_activity_agregarprod"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".convenior"
+            android:label="@string/title_activity_convenior"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".nconvenio"
+            android:label="@string/title_activity_nconvenio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ajustesr"
+            android:label="@string/title_activity_ajustesr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bodega"
+            android:label="@string/title_activity_bodega"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".nbodega"
+            android:label="@string/title_activity_nbodega"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pe"
+            android:label="@string/title_activity_pe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ad"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".adr"
+            android:label="@string/title_activity_adr"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".noferta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".oferta"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vp"
+            android:screenOrientation="portrait" />
+        <activity android:name=".selecfh" />
+        <activity android:name=".aconvenio"></activity>
+    </application>
+
+</manifest>

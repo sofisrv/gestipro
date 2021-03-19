@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Perfil">
+        <menu>
+            <item
+                android:id="@+id/miperfilr"
+                android:icon="@drawable/perfil"
+                android:title="Ver" />
+            <item
+                android:id="@+id/modificarperfilr"
+                android:icon="@drawable/modificar"
+                android:title="Modificar" />
+        </menu>
+    </item>
+    <item android:title="Productos">
+        <menu>
+            <item
+                android:id="@+id/verproductos"
+                android:icon="@drawable/bodega"
+                android:title="Ver" />
+            <item
+                android:id="@+id/agregarproductos"
+                android:icon="@drawable/mas"
+                android:title="Agregar" />
+        </menu>
+    </item>
+    <item android:title="Bodega">
+        <menu>
+            <item
+                android:id="@+id/bodega"
+                android:icon="@drawable/productos"
+                android:title="Ver" />
+            <item
+                android:id="@+id/agregarbodega"
+                android:icon="@drawable/mas"
+                android:title="Agregar" />
+            <item
+                android:id="@+id/pe"
+                android:icon="@drawable/mas"
+                android:title="Pedidos especiales" />
+        </menu>
+    </item>
+    <item android:title="Convenios">
+        <menu>
+            <item
+                android:id="@+id/convenio"
+                android:icon="@drawable/convenio"
+                android:title="Todos" />
+            <item
+                android:id="@+id/nconvenio"
+                android:icon="@drawable/nconvenio"
+                android:title="Nuevo" />
+        </menu>
+    </item>
+    <item android:title="Otros">
+        <menu>
+            <item
+                android:id="@+id/ajustes"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Ajustes" />
+            <item
+                android:id="@+id/ad"
+                android:icon="@drawable/restaurante"
+                android:title="gestipro" />
+
+        </menu>
+    </item>
+</menu>

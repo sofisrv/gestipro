@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loginp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sofia.gestipro1.loginp">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/usuvar"
+        android:textSize="24sp"
+        android:textColor="?attr/textColorAlertDialogListItem"
+        android:hint="Usuario"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtpas"
+        android:textSize="24sp"
+        android:textColor="?attr/textColorAlertDialogListItem"
+        android:hint="Contraseña"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/usuvar"
+        android:layout_alignLeft="@+id/usuvar"
+        android:layout_alignStart="@+id/usuvar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icp"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp" />
+
+    <Button
+        android:text="Entrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/breg"
+        android:background="@android:color/holo_orange_light"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/txtpas"
+        android:layout_alignRight="@+id/txtpas"
+        android:layout_alignEnd="@+id/txtpas" />
+
+</RelativeLayout>
+
